@@ -7,11 +7,10 @@
 *
 */
 
-var $UTIL = {
-        I18N:{}
-};
+var $UTIL.I18N = {};
 
-I18N.config = function(locale){
+
+$UTIL.I18N.config = function(locale){
     return{
         getMessage : function(key) {
             
